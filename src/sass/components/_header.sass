@@ -1,0 +1,49 @@
+.header
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	padding: 33px 0 30px
+	color: $white
+	background: rgba($mirage, 0.9)
+	+sm
+		position: relative
+	&__right
+		float: right
+	&__item
+		position: relative
+		padding-left: 20px
+		font-weight: 400 
+		font-size: 14px
+		color: inherit 
+		vertical-align: top
+		display: inline-block
+		&:hover
+			span
+				border-color: currentColor 
+		&:not(:first-child)
+			margin-left: 34px
+		&_recover
+			+sm
+				display: none
+		.icon
+			position: absolute
+			top: 3px
+			left: 0
+			font-size: 11px
+		.icon-key
+			top: 1px
+			font-size: 14px
+		.icon-login
+			left: 3px
+		span
+			transition: border-color .3s
+			border-bottom: 1px solid transparent 
+	&__logo
+		margin: -7px 0 -4px
+
+.logo
+	float: left
+	img,
+	svg
+		display: block

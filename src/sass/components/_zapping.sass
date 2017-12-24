@@ -1,0 +1,64 @@
+.zapping
+	position: relative
+	z-index: 1
+	padding: 109px 0 110px
+	+sm
+		padding: 0 0 26px
+		text-align: center
+	&__img
+		float: right
+		margin: -12.9% 0 -9.4%
+		width: 50%
+		max-width: 727px
+		+lg
+			margin: -12% 0 -15%
+		+sm
+			position: relative
+			left: 50%
+			float: none
+			margin: -14px 0 22px -374px
+			width: 768px
+			&:before
+				position: absolute
+				content: "" 
+				bottom: 0
+				left: -30px
+				right: -30px
+				height: 1px
+				border-bottom: 1px solid rgba($sanJuan, .5)
+	&__img-out
+		width: 479px
+		+sm
+			position: relative
+			left: 10%
+			margin: 0 auto
+			width: 440px 
+		img
+			max-width: 100%
+			display: block
+	&__text
+		float: left
+		padding-right: 4%
+		width: 50%
+		+sm
+			padding: 0
+			width: 100%
+	&__icons
+		margin-bottom: 10px
+		color: $sanJuan 
+	&__icon
+		font-size: 0
+		vertical-align: top
+		display: inline-block
+		&:not(:first-child)
+			margin-left: 14px
+		svg,
+		img
+			display: block
+		.icon
+			font-size: 29px
+	&__title
+		margin-bottom: 12px
+		.icon-heart
+			font-size: 17px
+			color: $coralRed 

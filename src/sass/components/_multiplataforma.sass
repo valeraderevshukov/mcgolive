@@ -1,0 +1,54 @@
+.multiplataforma
+	position: relative
+	z-index: 1
+	padding: 75px 0 72px
+	+sm
+		padding: 0 0 33px
+		text-align: center
+	&__img
+		float: right
+		margin: -14.4% 0
+		width: 57%
+		max-width: 727px
+		+sm
+			float: none
+			position: relative
+			left: 50%
+			width: 768px
+			margin: -33px 0 -37px -364px
+	&__img-out
+		width: 668px
+		+sm
+			margin: 0 auto
+			top: -33px
+			width: 512px
+			transform: rotate(10deg) translateY(-17px)
+		img
+			max-width: 100%
+			display: block
+	&__text
+		float: left
+		padding-right: 30px
+		width: 43%
+		+sm
+			padding: 0
+			float: none
+			width: 100%
+	&__icons
+		margin-bottom: 15px
+		color: $sanJuan 
+	&__icon
+		font-size: 0
+		vertical-align: top
+		display: inline-block
+		&:not(:first-child)
+			margin-left: 14px
+		svg,
+		img
+			display: block
+		.icon
+			font-size: 36px
+		.icon-apple
+			font-size: 37px
+	&__title
+		margin-bottom: 12px

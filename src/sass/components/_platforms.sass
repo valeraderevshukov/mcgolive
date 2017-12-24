@@ -1,0 +1,65 @@
+.platforms
+	padding: 122px 0 107px
+	color: $white 
+	background-color: $mirage
+	+sm
+		padding: 36px 0 43px
+		text-align: center 
+	&__left
+		float: left
+		width: 48.3%
+		+sm
+			width: 100%
+	&__list
+		font-size: 0
+		+sm
+			margin-bottom: 36px
+	&__item
+		margin-bottom: 10px
+		vertical-align: middle
+		transition: opacity .3s
+		display: inline-block
+		+sm
+			display: block
+		&:hover
+			opacity: 0.8
+		&:not(:first-child)
+			margin-left: 42px
+			+sm
+				margin: 35px 0 0
+	&__link
+		display: block
+		+sm
+			vertical-align: top
+			display: inline-block
+		&_hbogo
+			width: 123px
+		&_foxplay
+			width: 146px 
+		&_espnplay
+			width: 151px
+		img
+			max-width: 100%
+			display: block
+	&__info
+		font-family: $montserrat
+		font-weight: 300 
+		font-size: 13px
+		color: rgba($white, 0.4)
+		letter-spacing: .3em
+		line-height: 1.7
+		+sm
+			display: none
+	&__text
+		float: right
+		padding: 0 50px 0 30px
+		width: 51.7%
+		+sm
+			padding: 0
+			width: 100%
+	&__title
+		margin-bottom: 12px
+		color: $white 
+		+sm
+			margin: 0 auto 10px
+			max-width: 220px 
